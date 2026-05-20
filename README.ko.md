@@ -55,14 +55,17 @@ FlowLinq은 **WhatsApp-first**, **AI-native**, 그리고 **SMB가 이미 쓰는 
 
 FlowLinq은 devslab-kr의 **Linq** 제품 family 일원:
 
-| Product      | 목적                              | Repo                                                |
-| ------------ | --------------------------------- | --------------------------------------------------- |
+| Product      | 목적                              | Repo                                                  |
+| ------------ | --------------------------------- | ----------------------------------------------------- |
 | **BookLinq** | WhatsApp-first booking SaaS       | [jlc488/booklinq](https://github.com/jlc488/booklinq) |
-| **FlowLinq** | AI Document Operations Platform   | 이 리포                                             |
+| **FlowLinq** | AI Document Operations Platform   | 이 리포                                               |
 
 두 제품은 공유 platform monorepo를 의존:
 
 → [`devslab-kr/linq-kit`](https://github.com/devslab-kr/linq-kit) — agent runtime, channel adapter, workflow engine, OCR/추출, 외부 시스템 bridge.
+
+각 선택의 근거와 검토 대안:
+[docs/decisions.ko.md](docs/decisions.ko.md).
 
 ## Tech stack
 

@@ -57,14 +57,17 @@ Full architecture: [docs/architecture.md](docs/architecture.md).
 
 FlowLinq is part of the **Linq** product family at devslab-kr:
 
-| Product      | Purpose                              | Repo                                                |
-| ------------ | ------------------------------------ | --------------------------------------------------- |
-| **BookLinq** | WhatsApp-first booking SaaS          | [jlc488/booklinq](https://github.com/jlc488/booklinq) |
-| **FlowLinq** | AI Document Operations Platform      | this repo                                           |
+| Product      | Purpose                          | Repo                                                  |
+| ------------ | -------------------------------- | ----------------------------------------------------- |
+| **BookLinq** | WhatsApp-first booking SaaS      | [jlc488/booklinq](https://github.com/jlc488/booklinq) |
+| **FlowLinq** | AI Document Operations Platform  | this repo                                             |
 
 Both products share the platform monorepo:
 
 → [`devslab-kr/linq-kit`](https://github.com/devslab-kr/linq-kit) — agent runtime, channel adapters, workflow engine, OCR/extraction, external system bridges.
+
+Why each choice was made and what alternatives we rejected:
+[docs/decisions.md](docs/decisions.md).
 
 ## Tech stack
 
