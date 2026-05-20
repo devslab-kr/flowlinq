@@ -208,6 +208,12 @@ Kit 레벨 공통 결정은
 - **Revisit when.** Workers AI 카탈로그의 새 모델이 힌디어나 인도 invoice 분류에서
   glm-4.7-flash를 의미 있게 상회.
 
+> **인프라 관점 (모델 선택과 분리).** 추론이 *어디서* 도는가 (Cloudflare managed vs
+> Together / Fireworks managed vs vLLM / SGLang / TGI self-host)는 kit 레벨에서 추적 —
+> [`linq-kit/docs/decisions.ko.md` D-110](https://github.com/devslab-kr/linq-kit/blob/main/docs/decisions.ko.md#d-110)
+> 참조. DPDP Act 시행은 BookLinq 단독으로 정당화 안 되는 India self-host를 강제할 수 있는
+> FlowLinq-특화 trigger; 이 문서가 그 watch를 owns함.
+
 ---
 
 ## D-009 — 지역: India first

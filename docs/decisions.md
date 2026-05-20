@@ -212,6 +212,13 @@ Cross-cutting kit-level decisions live in
 - **Revisit when.** A new model in Workers AI catalogue meaningfully outperforms
   glm-4.7-flash on Hindi or Indian invoice classification.
 
+> **Note on infrastructure (vs model choice).** *Where* inference runs (Cloudflare
+> managed vs Together / Fireworks managed vs self-host on vLLM / SGLang / TGI) is
+> tracked at the kit level — see
+> [`linq-kit/docs/decisions.md` D-110](https://github.com/devslab-kr/linq-kit/blob/main/docs/decisions.md#d-110).
+> DPDP Act enforcement is the FlowLinq-specific trigger that could force India
+> self-hosting earlier than BookLinq alone would justify; this doc owns that watch.
+
 ---
 
 ## D-009 — Geography: India first
