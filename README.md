@@ -1,5 +1,9 @@
 # FlowLinq
 
+<!-- publisher:start -->
+Published by [데브스랩(DevsLab)](https://devslab.kr/).
+<!-- publisher:end -->
+
 🌐 [한국어](README.ko.md)
 
 **AI-powered Document Operations Platform — WhatsApp-native EDMS for Indian SMBs.**
